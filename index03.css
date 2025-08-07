@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.box {
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 4rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.normal {
+    background-color: #e6f7ff;
+    border: 2px solid #1890ff;
+}
+
+.hidden {
+    visibility: hidden;
+    background-color: #fff0f6;
+    border: 2px solid #f5222d;
+}
+
+.none {
+    display: none;
+    background-color: #f6ffed;
+    border: 2px solid #52c41a;
+}
+
+.explanation {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 80%;
+}
+
+.explanation h2 {
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.explanation ul {
+    padding-left: 20px;
+}
+
+.explanation li {
+    margin-bottom: 10px;
+}

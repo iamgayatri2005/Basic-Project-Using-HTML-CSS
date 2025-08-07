@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display vs Visibility Demo</title>
+    <link rel="stylesheet" href="index03.css">
+</head>
+<body>
+    <h1>Display vs Visibility Demo</h1>
+    
+    <div class="container">
+        <div>
+            <div class="box-label">Normal Box (Visible):</div>
+            <div class="box normal">🧃</div>
+        </div>
+        
+        <div>
+            <div class="box-label">Box with visibility: hidden (Invisible but takes space):</div>
+            <div class="box hidden">🍿</div>
+        </div>
+        
+        <div>
+            <div class="box-label">Box with display: none (Completely removed):</div>
+            <div class="box none">🍩</div>
+        </div>
+    </div>
+
+    <div class="explanation">
+        <h2>What's the difference?</h2>
+        <ul>
+            <li><strong>visibility: hidden</strong> - The element is invisible but still occupies space in the layout.</li>
+            <li><strong>display: none</strong> - The element is completely removed from the document flow and doesn't take up any space.</li>
+        </ul>
+        <p>Notice how the middle box (🍿) is invisible but still maintains its space in the layout, while the third box (🍩) is completely gone!</p>
+    </div>
+</body>
+</html>

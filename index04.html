@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Wrap and Responsive Boxes</title>
+    <link rel="stylesheet" href="index04.css">
+</head>
+<body>
+    <header>
+        <h1>Flex Wrap and Responsive Boxes 📦🔁📱</h1>
+        <p class="instructions">Resize your browser window to see how the boxes wrap automatically!</p>
+    </header>
+
+    <div class="flex-container">
+        <div class="box">🎁</div>
+        <div class="box">🎀</div>
+        <div class="box">🎉</div>
+        <div class="box">🎈</div>
+        <div class="box">🎊</div>
+        <div class="box">🎂</div>
+        <div class="box">🧸</div>
+        <div class="box">🎮</div>
+        <div class="box">🎯</div>
+        <div class="box">🎨</div>
+        <div class="box">🎭</div>
+        <div class="box">🎪</div>
+    </div>
+
+    <div class="explanation">
+        <h2>How Flex Wrap Works</h2>
+        <p>The container above uses these CSS properties:</p>
+        <pre>
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+        </pre>
+        <p>When <code>flex-wrap: wrap</code> is applied:</p>
+        <ul>
+            <li>Flex items will stay in a single line until there's not enough space</li>
+            <li>When there's not enough space, items will wrap to the next line</li>
+            <li>This creates a responsive layout that adapts to different screen sizes</li>
+        </ul>
+        <p>Try resizing your browser window to see this in action!</p>
+    </div>
+</body>
+</html>
