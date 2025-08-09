@@ -10,7 +10,7 @@ body {
 }
 
 .calculator {
-    background-color: lavender;
+    background-color: #fdc5f5;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
@@ -51,22 +51,22 @@ button:hover {
 }
 
 .operator {
-  background-color: #ff9500;
+  background-color: #be3e82;
     color: white;
 }
 
 .operator:hover {
-  background-color: #cc7700;
+  background-color: #e05780;
 }
 
 .equals {
   grid-column: span 2;
-  background-color: #4caf50;
+  background-color: #ffbd00;
   color: white;
 }
 
 .equals:hover {
-  background-color: #388e3c;
+  background-color: white;
 }
 
 .clear {
