@@ -15,7 +15,7 @@ body{
 .login-box{
     display: flex;
     flex-direction: column;
-    background-color: azure;
+    background-color: #90e0ef;
     border-radius: 20px;
     width: 200px;
     padding: 20px;
@@ -32,11 +32,11 @@ body{
 .login-box button{
     padding: 10px;
     font-size: 15px;
-    background-color: blue;
+    background-color: #03045e;
     border:none;
     color:white;
     border-radius: 5px;
 }
 .login-box button:hover {
-    background-color: darkred;
+    background-color: #2a6f97;
 }
